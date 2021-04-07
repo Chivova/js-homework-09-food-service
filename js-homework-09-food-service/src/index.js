@@ -1,7 +1,10 @@
-import './styles.css';
 import './js/theme-switch.js';
 import theme from './js/theme.js';
+import menuCards from './templates/menu-card.hbs';
+import menu from './menu.json';
+import './styles.css';
 
+console.log(menuCards(menu));
 const refs = {
   checkbox: document.querySelector('#theme-switch-toggle'),
   body: document.querySelector('body'),
