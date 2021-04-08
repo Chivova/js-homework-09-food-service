@@ -1,5 +1,4 @@
-import './js/theme-switch.js';
-import './js/markup.js';
+import makeMenuCardsMarkup from './js/markup.js';
 import theme from './js/theme.js';
 import './styles.css';
 
@@ -34,3 +33,7 @@ function currentTheme() {
     refs.checkbox.checked = true;
   }
 }
+
+const listRef = document.querySelector('.js-menu');
+
+listRef.insertAdjacentHTML('afterbegin', makeMenuCardsMarkup);
