@@ -26,7 +26,7 @@ DARK: 'dark-theme',
 <li class="menu__item">
   <article class="card">
     <img
-      src="https://s1.eda.ru/StaticContent/Photos/140812180013/140820212258/p_O.jpg"
+      src=""
       alt="Картофель, запеченный в мундире"
       class="card__image"
     />
